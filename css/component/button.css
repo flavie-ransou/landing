@@ -1,0 +1,68 @@
+.btn {
+	color: white;
+	padding: 15px 20px;
+	text-decoration: none;
+	transition: .3s;
+	font-weight: bold;
+	transition: 0.4s;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+
+.btn:hover, .btn-2:hover{
+	color: grey;
+	opacity: 0.8;
+}
+
+.btn-2 {
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: .3s;
+	font-weight: bold;
+	transition: 0.4s;
+	position: absolute;
+	right:128px;
+	top: 10px;
+}
+
+
+#apply-section{
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-book{
+	background-color: whitesmoke;
+	border-radius: 7px;
+	padding: 10px 20px;
+	width: fit-content;
+	transition: .3s;
+	text-decoration: none;
+	border: 1px solid white;
+	color: black;
+}
+
+.btn-book:hover{
+	background:none;
+	color: white;
+}
+
+.logo{
+	text-decoration: none;
+	color: white;
+	display: inline;
+	padding: 6px;
+	margin: 5px;
+	font-size: 20px;
+	transition: .5s;
+}
+
+.logo:hover{
+	color:grey;
+}
+

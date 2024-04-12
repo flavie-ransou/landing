@@ -1,0 +1,14 @@
+.map{
+  width: fit-content; /*prend la largeur que tu as besoin pas plus*/
+  display: grid;
+  align-items: center;
+  box-sizing: border-box; /*padding dans la div et éviter que le padding agrandisse la div*/
+  position: relative;
+  padding-left: 60px;
+}
+
+.map iframe {
+  width: 600px;
+  height: 265px;
+  border: 0;
+}
